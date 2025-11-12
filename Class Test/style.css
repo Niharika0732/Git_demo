@@ -6,7 +6,7 @@ body{
     text-align: center;
     background-color: grey;
 }
-#block{border: 2px solid rgb(238, 255, 0);
+#block{border: 2px solid rgb(255, 0, 0);
     border-radius: 5%;
     background-color: white;
     width: 30%;
@@ -15,5 +15,5 @@ body{
     justify-items: center;
 }
 #price{
-    color: rgb(255, 0, 225);
+    color: rgb(255, 0, 234);
 }
