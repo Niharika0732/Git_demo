@@ -9,11 +9,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* Gradient background */
+    background: linear-gradient(to right, #0072ff, #00c6ff); 
     font-family: 'Roboto', sans-serif;
 }
 
-/* Calculator container */
 .calculator {
     background-color: #ffffff;
     padding: 25px;
