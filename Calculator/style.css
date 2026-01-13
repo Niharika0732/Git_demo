@@ -35,14 +35,12 @@ input {
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons container */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
-/* Button styling */
 button {
     font-size: 1.6rem;
     padding: 15px;
@@ -56,49 +54,46 @@ button {
 }
 
 button:active {
-    transform: scale(0.95); /* Scale button on click */
+    transform: scale(0.95); 
 }
 
-/* Operators */
 button:nth-child(-n+4) {
-    background-color: #ffd166; /* Yellow for operators */
+    background-color: #ffd166; 
     color: #333;
     font-weight: bold;
 }
 
 button:nth-child(-n+4):hover {
-    background-color: #ffaa00; /* Darker yellow on hover */
+    background-color: #ffaa00; 
 }
 
-/* Clear button */
 .clear {
-    background-color: #f55c47; /* Bright red for clear */
+    background-color: #f55c47; 
     color: white;
     font-weight: bold;
 }
 
 .clear:hover {
-    background-color: #d43d2f; /* Darker red on hover */
+    background-color: #d43d2f; 
 }
 
-/* Equal button */
+
 .equal {
-    background-color: #06d6a0; /* Green for equal button */
+    background-color: #06d6a0; 
     color: white;
     font-weight: bold;
-    grid-column: span 2; /* Make "=" button span two columns */
+    grid-column: span 2; 
 }
 
 .equal:hover {
-    background-color: #04a67e; /* Darker green on hover */
+    background-color: #04a67e;
 }
 
-/* Number buttons */
 button:not(.clear):not(.equal):not(:nth-child(-n+4)) {
-    background-color: #bbdefb; /* Light blue for numbers */
+    background-color: #bbdefb; 
     color: #000;
 }
 
 button:not(.clear):not(.equal):not(:nth-child(-n+4)):hover {
-    background-color: #90caf9; /* Darker blue on hover */
+    background-color: #90caf9; 
 }
