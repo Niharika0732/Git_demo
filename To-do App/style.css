@@ -1,22 +1,18 @@
-
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #e8f4f8; /* Updated background color */
+    background-color: #e8f4f8; 
 }
 
-/* Container to hold everything */
 .container {
     background-color: #ffffff;
     border-radius: 12px;
@@ -25,7 +21,6 @@ body {
     width: 500px;
 }
 
-/* Heading styling */
 h1 {
     font-size: 2.2rem;
     margin-bottom: 20px;
