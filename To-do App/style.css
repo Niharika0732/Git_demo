@@ -63,29 +63,26 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker hover color */
+    background-color: #0056b3; 
 }
 
-/* Task list styling */
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* Task item styling */
 li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px dashed #ccc; /* Updated to dashed separator */
+    border-bottom: 1px dashed #ccc; 
     font-size: 1rem;
 }
 
-/* Task completion button styling */
 li button {
     background-color: transparent;
-    color: #34a853; /* Green for complete button */
+    color: #34a853; 
     font-size: 1.5rem;
     border: none;
     cursor: pointer;
@@ -94,12 +91,11 @@ li button {
 }
 
 li button:hover {
-    color: #0c661b; /* Darker green on hover */
+    color: #0c661b; 
 }
 
-/* Remove button */
 li .remove-btn {
-    background-color: #ea4335; /* Red color for remove button */
+    background-color: #ea4335; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -110,10 +106,9 @@ li .remove-btn {
 }
 
 li .remove-btn:hover {
-    background-color: #b71c1c; /* Darker red on hover */
+    background-color: #b71c1c; 
 }
 
-/* Task text styling */
 .completed {
     text-decoration: line-through;
     color: #6c757d;
