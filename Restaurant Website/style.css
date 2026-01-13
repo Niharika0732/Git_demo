@@ -25,7 +25,6 @@
     margin-bottom: 3px;
 }
 
-/*Navbar Functionality*/
 #navbar {
     display: flex;
     flex-direction: column;
@@ -38,13 +37,11 @@
     border-radius: 15px;
 }
 
-/*Navbar content functionality*/
 #navcontent {
     display: flex;
     justify-content: center;
 }
 
-/*Navbar content styling*/
 ul li {
     list-style: none;
     margin: 15px;
@@ -63,7 +60,6 @@ ul li a:hover {
     border-radius: 10px;
 }
 
-/* website background image designing */
 #container1 {
     position: relative;
     display: flex;
@@ -73,7 +69,6 @@ ul li a:hover {
     height: 63vh;
 }
 
-/*Setting the background image using before pseudo selector*/
 #container1::before {
     content: '';
     background: url("https://media.geeksforgeeks.org/wp-content/uploads/20240711124309/8513909_3941598-(2).jpg") no-repeat center center/cover;
@@ -99,7 +94,6 @@ ul li a:hover {
     margin-top: 35px;
 }
 
-/*Button Styling*/
 .btn {
     margin-top: 15px;
     border: 3px solid white;
@@ -218,12 +212,10 @@ ul li a:hover {
     border-radius: 15px;
 }
 
-/*Designing the footer*/
 footer {
     text-align: center;
 }
 
-/*Designing of Contact Us*/
 #ContactUs {
     width: 100vw;
     height: 100vh;
@@ -240,12 +232,10 @@ footer {
     padding: 0.5rem;
 }
 
-/*Changing the color of placeholder*/
 ::placeholder {
     color: gray;
 }
 
-/*Making the webpage responsive using media queries*/
 @media only screen and (max-width:1131px) {
     #row4 {
         width: 42vw;
