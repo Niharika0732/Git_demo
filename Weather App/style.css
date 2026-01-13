@@ -1,11 +1,9 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -17,9 +15,8 @@ body {
     background-repeat: no-repeat;
 }
 
-/* App Container */
 .app-container {
-    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent dark background */
+    background-color: rgba(34, 34, 34, 0.8);
     padding: 20px;
     border-radius: 15px;
     width: 90%;
